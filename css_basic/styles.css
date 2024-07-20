@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #666; ;
+    font-weight: bold;
+}
+
+table, tr, th, td {
+    border: 1px solid #666;
+    padding: 3px;
+}
+
+iframe {
+    border-radius: 5px;
+}
